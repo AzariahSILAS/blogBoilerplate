@@ -1,0 +1,39 @@
+/* global styles */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* containers */
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.flexContainer{
+    display: flex;
+}
+
+/* header */
+header{
+    background-color: aquamarine;
+}
+.header{
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 auto;
+}
+nav{
+    justify-content: space-between;
+    width: 300px;
+}
+
+/* content */
+.headerImg{
+    height: 500px;
+}
+
+/* footer */
+
