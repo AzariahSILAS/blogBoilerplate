@@ -5,13 +5,15 @@
     <%- include('./partials/header') %>
         <div class="headerImg"></div>
         <div class="container">
-            <div class="flexContiner">
-                <div>
-                    <h2><%= pageIntro %></h2>
+            <div class="flexContainer introSection mM">
+                <div class="introContainer">
+                    <h2 class="sMB"><%= pageIntro %></h2>
                     <p><%= pageDiscription %></p>
                 </div>
-                <img src="<%-  %>" alt="" class="introImg">
+            
+                <img src="<%- introImg  %>" alt="" class="introImg">
             </div>
+            
         </div>
         <div class="container">
             <div class="gridContainer"></div>
